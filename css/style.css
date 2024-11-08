@@ -1,0 +1,267 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Centering header content */
+header {
+    background-image: url('../images/home-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 80px 20px; /* Increased padding to give more space */
+    text-align: center;
+    height: auto; /* Removed the fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header h1 {
+    font-family: 'Playfair Display', serif; /* Replace with the selected font */
+    font-size: 3em; /* Adjust size as needed */
+    color: #fff; /* Ensure good contrast with background */
+    margin: 0;
+    
+}
+
+header p {
+    font-size: 1.2em; /* Adjust font size if needed */
+    margin: 10px 0 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0; /* Added padding for spacing */
+}
+
+nav a {
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: #8B4513;
+    margin-bottom: 20px;
+}
+
+/* Background Image for Home Section */
+.home-bg {
+    background-image: url('../images/home-bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 40px;
+    position: relative; /* Necessary for pseudo-element positioning */
+    /* Dark overlay shadow using rgba */
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+}
+
+
+.service {
+    width: 100%; /* Default to full width */
+    max-width: 300px; /* Limit max size */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* Center the section heading */
+#services h2 {
+    text-align: center;    /* Center the heading text */
+    margin-bottom: 30px;   /* Space between heading and service boxes */
+}
+
+/* Align service boxes */
+#services {
+    text-align: center;    /* Center align all content within the section */
+}
+
+/* Update the .service class to display in rows centered below the heading */
+.service {
+    display: inline-block; /* Ensures boxes are next to each other in a row */
+    vertical-align: top;
+    text-align: left;      /* Text inside boxes is left-aligned */
+    max-width: 300px;      /* Controls the width of each box */
+    margin: 10px;          /* Space between service boxes */
+}
+
+
+
+
+
+
+
+/* Book Now Button */
+.btn {
+    background-color: #8B4513;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #A0522D;
+}
+
+/* Form, Testimonials, and Footer remain the same */
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Social Media Icon Styling */
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .social-links a {
+    color: #fff;
+    font-size: 1.5em; /* Adjust size of icons */
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #ddd; /* Hover color for icons */
+}
+
+#calendar {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #f4f4f9;
+}
+
+.testimonial {
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Max width to keep it balanced on large screens */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0; /* Space between testimonials */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.testimonial p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f9f9fc;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #8B4513;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button[type="submit"]:hover {
+    background-color: #A0522D;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nallah's Braiding Corner & Beauty</title>
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.min.css" rel="stylesheet"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.m
+     in.js"></script> -->
+    <!-- <img src="images/crochet-braids.jpg" alt="Crochet Braids"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!-- <script src="script.js" defer></script> -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="hidden">
+        <h1>Nallah's Braiding Corner & Beauty</h1>
+        <p>Your beauty, our priority</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="flex px-5 items-center justify-between  top-0 sticky-top h-14 items-center bg-gray-800">
+        <div class="w-full text-white font-bold">
+            <h1>Nallah's Braiding Corner & Beauty</h1>
+        </div>
+
+       <div class="w-full flex justify-end flex-row gap-4 text-white">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="https://your-booking-platform-link.com" target="_blank" class="booking-link">Book Online</a>
+        <a href="#testimonials">Testimonials</a>
+       </div>
+    </nav>    
+
+
+
+    <div class="carousel h-[600px] w-full">
+        <!-- Slide 1 -->
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="/images/home-bg.jpg" class="w-full" />
+          <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <div class="w-full md:w-3/6 text-center text-white space-y-5">
+              <h2 class="font-bold text-sm  md:text-2xl text-white ">Welcome to Nallah's Braiding Corner & Beauty</h2>
+              <!-- <h3 class="text-xl">Crochet Braids</h3> -->
+              <p class="hidden md:inline-block text-xs  font-semibold italic">Get stylish crochet braids that add volume and versatility to your look.</p>
+            </div>
+          </div>
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      
+        <!-- Slide 2 -->
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="/images/home-bg2.jpg" class="w-full" />
+          <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <div class="w-full md:w-3/6 text-center text-white p-4">
+              <h2 class="font-bold text-sm  md:text-2xl text-white ">Discover Our Services</h2>
+              <h3 class="text-xl">Box Braids</h3>
+              <!-- <p class="text-md font-semibold italic">Enhance your style with classic, long-lasting box braids.</p> -->
+            </div>
+          </div>
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      
+        <!-- Slide 3 -->
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="/images/locs.jpg" class="w-full" />
+          <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <div class="w-full md:w-3/6 text-center text-white p-4">
+              <h2 class="font-bold text-lg md:text-2xl text-white">Experience Natural Locs</h2>
+              <h3 class="text-xl">Loc Maintenance</h3>
+              <!-- <p class="text-md font-semibold italic">Keep your locs looking fresh and well-maintained.</p> -->
+            </div>
+          </div>
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      
+        <!-- Slide 4 -->
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="/images/facial-treatments.jpg" class="w-full" />
+          <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <div class="w-full md:w-3/6 text-center text-white p-4">
+              <h2 class="font-bold text-lg md:text-2xl text-white">Pamper Yourself</h2>
+              <h3 class="text-xl">Facial Treatments</h3>
+              <p class="text-md font-semibold italic">Revitalize your skin with our luxurious facial treatments.</p>
+            </div>
+          </div>
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+    <section id="Services" class="mx-4 my-7 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+        <div class="bg-white  flex flex-col gap-4 shadow-sm rounded-sm px-4 py-5 group  cursor-pointer hover:shadow-lg">
+            <img src="images/knotless-braids.jpg" alt="Knotless Braids" class="w-full h-auto group-hover:scale-105">
+            <h3 class="text-lg font-semibold">Knotless Braids</h3>
+            <p class="text-sm tezt-gray-600">Enjoy lightweight, tension-free knotless braids with a natural finish.</p>
+        </div>
+
+        <div class="bg-white  flex flex-col gap-4 shadow-sm rounded-sm px-4 py-5 group  cursor-pointer hover:shadow-lg">
+            <img src="images/cornrows.jpg" class="w-full h-auto group-hover:scale-105" alt="Cornrows">
+            <h3 class="text-lg font-semibold">Cornrows</h3>
+            <p class="text-sm tezt-gray-600">Classic and clean cornrow styles for all ages and preferences.</p>
+        </div>
+        <div class="bg-white  flex flex-col gap-4 shadow-sm rounded-sm px-4 py-5 group  cursor-pointer hover:shadow-lg">
+            <img src="images/locs.jpg" class="w-full h-auto group-hover:scale-105" alt="Locs">
+            <h3 class="text-lg font-semibold">Locs</h3>
+            <p class="text-sm tezt-gray-600">Beautiful, natural locs crafted with care and expertise.</p>
+        </div>
+        <div class="bg-white  flex flex-col gap-4 shadow-sm rounded-sm px-4 py-5 group  cursor-pointer hover:shadow-lg">
+            <img src="images/facial-treatments.jpg" class="w-full h-auto group-hover:scale-105" alt="Facial Treatments">
+            <h3 class="text-lg font-semibold">Facial Treatments</h3>
+            <p class="text-sm tezt-gray-600">Pamper yourself with our rejuvenating facial treatments for glowing skin.</p>
+        </div>
+    </section>
+
+
+
+    <section id="testimonials" class="my-5">
+        <h2>Client Testimonials</h2>
+        <div class="testimonial">
+            <p>"Nallah's braids are the best I've had! The atmosphere is amazing." - Satisfied Client</p>
+        </div>
+        <div class="testimonial">
+            <p>"My skin feels so refreshed after the facial treatment. Highly recommend!" - Happy Client</p>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="service">Service Interested In:</label>
+            <input type="text" id="service" name="service" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+
+            <form action="/submit-form" method="post">
+
+        </form>
+    </section>
+
+    <section id="booking">
+        <h2>Book an Appointment</h2>
+        <p>Select a date and time to schedule your appointment with us:</p>
+        <div id="calendar"></div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Nallah's Braiding Corner & Beauty</p>
+        <div class="social-links">
+            <a href="https://wa.me/61424247363" target="_blank" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.instagram.com/nallah_the_braider/profilecard/?igsh=NDc1ZXJuejdibTlz" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </footer>      
+
+
+
+
+
+    <!-- Cal floating-popup embed code begins -->
+<script type="text/javascript">
+    (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+  Cal("init", "15min", {origin:"https://cal.com"});
+  
+    Cal.ns["15min"]("floatingButton", {"calLink":"wiseman-kang-ombe-9h05xk/15min","config":{"layout":"month_view"},"buttonColor":"#8B4513","buttonTextColor":"#fff","buttonText":"Book Now "}); 
+    Cal.ns["15min"]("ui", {"styles":{"branding":{"brandColor":"#000000"}},"hideEventTypeDetails":false,"layout":"month_view"});
+    </script>
+    <!-- Cal floating-popup embed code ends -->
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var calendarEl = document.getElementById('calendar');
+        
+        var calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',  // Monthly calendar view
+            headerToolbar: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'dayGridMonth,timeGridWeek,timeGridDay'
+            },
+            businessHours: {
+                daysOfWeek: [1, 2, 3, 4, 5, 6],  // Monday to Saturday
+                startTime: '09:00',              // Start time
+                endTime: '18:00'                 // End time
+            },
+            selectable: true,  // Allow users to select time slots
+            select: function(info) {
+                alert('You have selected a time slot from ' + info.startStr + ' to ' + info.endStr);
+                // Here you could open a booking form or redirect to a booking URL
+            },
+            themeSystem: 'standard'  // Set calendar styling
+        });
+        
+        // calendar.render();
+    });
+</script>
+
+</body>
+</html>
